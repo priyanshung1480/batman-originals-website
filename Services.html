@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - BatMan Originals</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm py-3">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#">🦇BatMan Originals</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-white mx-2" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white mx-2 active" href="Services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white mx-2" href="Aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white mx-2" href="Registration.html">Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white mx-2" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <button class="btn btn-light btn-sm ms-lg-3 mt-2 mt-lg-0" data-bs-toggle="modal"
+                    data-bs-target="#loginModal">
+                    Login / Signup
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="loginModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title text-dark">Login</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <input type="email" class="form-control mb-3" placeholder="Email">
+                    <input type="password" class="form-control mb-3" placeholder="Password">
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button class="btn btn-primary">Login</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <section class="container text-center mt-5 reveal">
+        <h1 class="fw-bold display-5">What We Do 🦇</h1>
+
+        <p class="lead mt-3">
+            We do not provide services. We prepare protectors.
+        </p>
+
+        <p>
+            Every mission requires skill, discipline, and purpose.
+            This is where it begins.
+        </p>
+    </section>
+
+    <section class="container mt-5 reveal">
+        <div class="row text-center">
+
+            <div class="col-md-3 mb-4">
+                <div class="p-4 bat-card h-100">
+                    <h4>⚔ Combat Training</h4>
+                    <hr class="bg-light">
+                    <p>
+                        Master the art of self-defense and discipline.
+                        Strength is earned through practice and control.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <div class="p-4 bat-card h-100">
+                    <h4>🧠 Tactical Intelligence</h4>
+                    <hr class="bg-light">
+                    <p>
+                        Learn how to think ahead, analyze situations,
+                        and make decisions under pressure.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <div class="p-4 bat-card h-100">
+                    <h4>💻 Cyber Security</h4>
+                    <hr class="bg-light">
+                    <p>
+                        Protect the digital world from unseen threats.
+                        Every system needs a guardian.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <div class="p-4 bat-card h-100">
+                    <h4>🤖 AI Surveillance</h4>
+                    <hr class="bg-light">
+                    <p>
+                        Use technology to monitor, detect, and prevent danger
+                        before it strikes.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container text-center reveal">
+        <h2 class="fw-bold">Train Today. Protect Tomorrow.</h2>
+
+        <p class="mt-3">
+            The mission is bigger than any one person.
+            It requires a network.
+        </p>
+
+        <a href="Registration.html" class="btn btn-primary mt-3 px-4">
+            Join the Program 🦇
+        </a>
+    </section>
+
+    <footer class="bg-dark text-center text-white py-3 mt-5">
+        &copy; 2026 BatMan Originals. All rights reserved 🦇
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        window.addEventListener("scroll", function () {
+            let reveals = document.querySelectorAll(".reveal");
+
+            reveals.forEach((el) => {
+                let windowHeight = window.innerHeight;
+                let elementTop = el.getBoundingClientRect().top;
+
+                if (elementTop < windowHeight - 100) {
+                    el.classList.add("active");
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
