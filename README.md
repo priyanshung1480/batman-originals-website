@@ -68,6 +68,7 @@ This website reflects the idea that anyone can become a hero through courage, di
 │── Contact.html
 │── Registration.html
 │── style.css
+│── BatMan.jpg
 
 
 ---
