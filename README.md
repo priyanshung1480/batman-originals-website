@@ -11,8 +11,11 @@ This project represents a modern, responsive, and visually engaging web experien
 
 ---
 
-## 📸 Screenshots 
-👉 
+## 📸 Preview 
+👉 home.png
+👉 Login.png
+👉 Registration.png
+
 
 ---
 
@@ -73,7 +76,11 @@ This website reflects the idea that anyone can become a hero through courage, di
 │── Contact.html
 │── Registration.html
 │── style.css
+/project
 │── BatMan.jpg
+│── Home.png
+│── Login.png
+│── Registration.png
 
 
 ---
