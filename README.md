@@ -12,11 +12,11 @@ This project represents a modern, responsive, and visually engaging web experien
 ---
 
 ## 📸 Preview 
-👉[Homepage](Home.png)
+👉![Homepage](Home.png)
 
-👉[Login Section](Login.png)
+👉![Login Section](Login.png)
 
-👉[Registration Section](Registration.png)
+👉![Registration Section](Registration.png)
 
 
 ---
